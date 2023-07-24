@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('authentication_project', function (Blueprint $table) {
+        Schema::create('projects', function (Blueprint $table) {
             $table->id();
             
             
@@ -21,7 +21,7 @@ return new class extends Migration
             $table->text('description') -> nullable();
             $table->date('start_date');
             $table->date('end_date');
-            $table->string('difficulty');
+            $table->string('difficulty', 18);
 
 
             $table->timestamps();
