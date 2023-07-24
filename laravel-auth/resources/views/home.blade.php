@@ -4,7 +4,7 @@
 @section("content")
 
 
-    <h1>HOME: HELLO, World FROM LARAVEL AUTHENTICATION</h1>
+    <h1>HOME: HELLO, WOLRD FROM LARAVEL AUTHENTICATION</h1>
 
 
 @endsection
